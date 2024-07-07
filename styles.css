@@ -8,7 +8,7 @@ header {
 
 body {
   margin: 0;
-  font-family: "Calibri";
+  font-family: "Roboto", "Calibri";
 }
 
 body > div,
@@ -42,6 +42,14 @@ h1 {
   font-weight: normal;
 }
 
+#header_button {
+  color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
 #image {
   width: 700px;
   height: 300px;
@@ -61,6 +69,80 @@ h1 {
   gap: 10px;
 }
 
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+#info-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.info-item {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info_img {
+  width: 200px;
+  height: 200px;
+  border-color: #3882f6;
+  border: 5px solid #3882f6;
+  border-radius: 5px 5px;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  p {
+    font-size: 30px;
+  }
+}
+
+#quote_signature {
+  font-weight: 700;
+  text-align: end;
+}
+
+.blue_bg {
+  background-color: #3882f6;
+}
+
+#signup {
+  margin: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  color: white;
+  align-items: center;
+}
+
+.signup_head {
+  font-size: 30px;
+}
+
+.signup_foot {
+  font-size: 25px;
+}
+
+#footer_button {
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px 5px;
+  width: 120px;
+  height: 40px;
+  background-color: #3882f6;
+}
+
+button {
+  font-size: 18px;
+}
 footer {
   text-align: center;
 }
